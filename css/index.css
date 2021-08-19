@@ -1,0 +1,224 @@
+@font-face {
+  font-family: "Shippori";
+  src: url(/Users/81702/Downloads/Shippori_Mincho/ShipporiMincho-Regular.ttf);
+  }
+@font-face {
+  font-family: "Amatic_SC";
+  src: url(/Users/81702/Downloads/Amatic_SC/AmaticSC-Regular.ttf);
+}
+
+body {
+max-width: 1300px;
+margin: 0 auto;
+font-family: "Amatic_SC","Shippori";
+}
+
+header{
+  width: 1000px;
+  height: 70px;
+  margin: 0 auto;
+}
+
+.header__logo{
+  float: right;
+  font-size: 40px;
+  line-height: 70px;
+  color: #55bbbb;
+  font-weight: bold;
+}
+
+main {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.eye-catch {
+  width: 100%;
+  height: 420px;
+  background-image: url(../img/fv.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.eye-catch__font {
+  height: 100%;
+}
+.eye-catch__ttl{
+  font-size: 40px;
+  line-height: 70px;
+}
+.eye-catch__ttl span{
+  font-size: 64px;
+  color: #55bbbb;
+}
+h1 div{
+  display: inline;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.eye-catch__txt{
+  display: flex;
+  padding: 40px 0 50px;
+}
+.eye-catch__txt--circle{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 80px;
+  font-size: 20px;
+  color: white;
+  background-color: #FF4384;
+}
+.eye-catch__txt--right{
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+}
+.eye-catch__txt--top{
+  color: #55bbbb;
+  font-size: 18px;
+  line-height: 30px;
+}
+.eye-catch__tzt--bottom{
+  color: #FF4384;
+  font-size: 28px;
+  line-height: 50px;
+}
+.eye-catch__tzt--bottom span{
+  font-size: 50px;
+  font-family: "Shippori";
+}
+.eye-catch__btn{
+  font-size: 23px;
+  padding: 20px 30px;
+  border-radius: 36px;
+  color: white;
+  background-color: #FF4384;
+  text-decoration: none;
+  font-family: "Shippori";
+  box-shadow: 0 0 10px #FF4384;
+}
+
+.show__txt{
+  width: 100%;
+  height: 90px;
+  line-height: 90px;
+  background-color: #55bbbb;
+  color: white;
+  font-size: 23px;
+  text-align: center;
+  font-family: "Shippori";
+}
+.show__txt span{
+  font-size: 35px;
+}
+
+.triangle-item{
+  margin: -1px auto 0;
+  width: 0px;
+  border-top: 30px solid #55bbbb;
+  border-right: 40px solid transparent;
+  border-left: 40px solid transparent;
+}
+
+.lead{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lead__img{
+  height: 300px;
+  width: auto;
+  margin-right: 30px;
+}
+.lead__li{
+  border: solid 1px #55bbbb;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+.lead__li ul{
+  padding: 15px 0;
+}
+
+.lead__li li{
+  list-style: none;
+  border-bottom: solid 1px #55bbbb;
+  color: #55bbbb;
+  margin: 20px 35px;
+  font-size: 23px;
+  padding-bottom: 8px;
+}
+
+.bottom__content{
+  width: 100%;
+  height: 200px;
+  background-color: #55bbbb;
+}
+.bottom__content--txt{
+  box-sizing: border-box;
+  padding: 30px 0;
+  line-height: 45px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+.bottom__content--txt strong{
+  font-size: 30px;
+}
+.bottom__content--txt span{
+  color: #FF4384;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.cosme-point{
+  width: 75%;
+  height: auto;
+  margin: 60px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cosme-point__unit{
+  width: 32%;
+  border: solid 1px #55bbbb;
+}
+.cosme-point__heading{
+  display: inline;
+  color: #55bbbb;
+  position: relative;
+  top: -12px;
+  left: 8px;
+  font-size: 24px;
+  padding: 0 5px;
+  background-color: white;
+}
+.cosme-point__ttl{
+  margin: 5px;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.cosme-point__ttl span{
+  color: #FF4384;
+}
+.cosme-point__txt{
+  padding: 10px 5px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+footer{
+  width: 100%;
+  height: 100px;
+  text-align: center;
+}
+small{
+  font-family: "Shippori";
+}
